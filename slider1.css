@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+}
+
+#slider1 {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+}
+
+#slider2 {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  margin-top: -200px;
+}
+
+#slider1 p,
+#slider2 p {
+  font-size: 12px;
+  color: rgb(108, 108, 108);
+}
+
+.container {
+  width: 1600px;
+  margin: auto;
+}
+
+.subcontainer {
+  width: 85%;
+  margin: auto;
+}
+
+.controller {
+  display: flex;
+  justify-content: space-between;
+}
+
+.previous1,
+.next1,
+.previous2,
+.next2 {
+  padding: 5px;
+  width: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  transition: 0.7s ease-in-out;
+  border: 1px solid #c4c4c4;
+}
+
+.previous1:hover,
+.next1:hover,
+.previous2:hover,
+.next2:hover {
+  background-color: rgb(238, 147, 0);
+}
+
+#controls1 i,
+#controls2 i {
+  color: #ff6612;
+  font-size: 1.5rem;
+}
+
+#controls1 a,
+#controls2 a {
+  padding: 9px 33px;
+  line-height: 17px;
+  color: #ff6612;
+  border: 1px solid #c4c4c4;
+  border-radius: 60px;
+  text-decoration: none;
+  transition: all .3s ease;
+  position: relative;
+  margin-right: 20px;
+}
+
+#controls1 a:hover,
+#controls2 a:hover {
+  color: white;
+  background-color: #ff6612;
+}
+
+.slide-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 3px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.slide-img:hover {
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.7) inset;
+}
+
+.slide-img a {
+  opacity: 0;
+  text-decoration: none;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.slide-img:hover a {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* slider 1 */
+
+.img-11 {
+  background-image: url('img/gujarat.png');
+}
+
+.img-12 {
+  background-image: url('img/himachal.jpg');
+}
+
+.img-13 {
+  background-image: url('img/kashmir.jpg');
+}
+
+.img-14 {
+  background-image: url('img/sikkim.jpg');
+}
+
+.img-15 {
+  background-image: url('img/uttarakhand.jpg');
+}
+
+.img-16 {
+  background-image: url('img/kerala.jpg');
+}
+
+.img-17 {
+  background-image: url('img/ladakh.jpg');
+}
+
+.img-18 {
+  background-image: url('img/rajasthan.jpg');
+}
+
+.img-19 {
+  background-image: url('img/tamilnadu.jpg');
+}
+
+.img-110 {
+  background-image: url('img/arunachal.jpg');
+}
+
+/* slider 2 */
+
+.img-21 {
+  background-image: url('img/bhutan.jpg');
+}
+
+.img-22 {
+  background-image: url('img/nepal.jpg');
+}
+
+.img-23 {
+  background-image: url('img/Maldives.jpg');
+}
+
+.img-24 {
+  background-image: url('img/srilanka.jpg');
+}
+
+.img-25 {
+  background-image: url('img/dubai.jpg');
+}
+
+.img-26 {
+  background-image: url('img/australia.jpg');
+}
+
+.img-27 {
+  background-image: url('img/singapore.jpg');
+}
+
+.img-28 {
+  background-image: url('img/myanmar.jpg');
+}
+
+.img-29 {
+  background-image: url('img/vietnam.jpg');
+}
+
+.img-210 {
+  background-image: url('img/switzerland.jpg');
+}
+@media(max-width:1600px) {
+  .container {
+    width: 100%;
+  }
+}
