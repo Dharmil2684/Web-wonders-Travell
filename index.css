@@ -1,0 +1,248 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.explore-themes {
+    padding: 40px 0;
+    margin-top: 60px;
+}
+
+.explore-themes h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 7.5%;
+}
+
+.theme-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.theme-card {
+    padding: 40px;
+    margin: 0px 10px;
+    width: 90px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    /* Add the transition for the hover effect */
+}
+
+.theme-card:hover {
+    transform: translateY(-6px);
+    /* Move the card 10px upward on hover */
+}
+
+.theme-card img {
+    display: block;
+    margin: auto;
+    width: auto;
+    max-height: 80px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    /* Add the transition for the hover effect */
+}
+
+.theme-card:hover img {
+    transform: translateY(-10px);
+}
+
+.theme-card p {
+    padding: 10px;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* hero */
+
+.im {
+    width: 250px;
+    margin-left: -40px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.part {
+    display: flex;
+    margin-bottom: -3%;
+}
+
+#div1 {
+    width: 27%;
+}
+
+#div2 {
+    width: 73%;
+    padding: 30px 100px 0px 100px;
+    margin-left: 30px;
+}
+
+#div2 p {
+    margin: 15px 0px 0px 10px;
+}
+
+#sub p {
+    font-size: 17px;
+    color: #3e3f54;
+    font-weight: 600;
+}
+
+#sub span {
+    font-size: 13px;
+    color: #787878;
+    margin: 15px 0px 0px 10px;
+}
+
+#f {
+    font-size: 65px;
+    line-height: 85px;
+    box-sizing: border-box;
+    color: rgb(72, 72, 72);
+}
+
+#sp {
+    color: #ff6612;
+}
+
+#sub {
+    font-size: 115%;
+    width: 33%;
+    height: 33%;
+    padding: 17px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.36);
+    margin: 25px;
+    transition: transform 0.3s ease;
+}
+
+#sub:hover {
+    transform: scale(1.1);
+}
+
+
+
+/*----------- slider 3 ------------ */
+
+.slideshow {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    max-width: 1290px;
+    margin: -30px auto;
+}
+
+.slideshow * {
+    outline: none;
+    border-radius: 3px;
+}
+
+.slideshow .slider-track {
+    transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.slideshow .item {
+    position: relative;
+    z-index: 1;
+}
+
+.slideshow .item img {
+    width: 100%;
+    height: 340px;
+    transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+    transform: scale(1.2);
+    object-fit: fill;
+}
+
+.slideshow .item.slick-active img {
+    transform: scale(1);
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: orangered;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0px 0px 8px 1px rgba(255,255,255,0.59);
+    border-radius: 50%;
+    z-index: 1;
+    border: 0px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    content: '\2190';
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.slick-next::before {
+    content: '\2192';
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+.slick-next {
+    right: -25px;
+}
+
+
+
+/* to the top */
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
