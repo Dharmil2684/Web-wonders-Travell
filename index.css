@@ -246,3 +246,104 @@ body {
     color: #fff;
     top: 5px;
 }
+
+
+/* Luxury part */
+  
+  .experience-main {
+    margin: 20px 0 0 120px;
+  }
+  
+  .experience-row {
+    display: flex;
+    flex: 0 0 20%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.heading-h2 {
+    margin-bottom: 30px;
+}
+
+.experience-row {
+    box-sizing: border-box;
+}
+
+.experience-box {
+    box-sizing: border-box;
+}
+
+.experince-area {
+    transition: box-shadow .3s ease-in-out;
+    position: relative;
+    transform: scale(1);
+}
+
+.experince-area img {
+    border-radius: 3px;
+    height: 100%;
+}
+
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 53, 53, 0.525);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.2s ease;
+    opacity: 0;
+}
+
+.experince-details-lux {
+    font-family: 'Dancing Script';
+    box-sizing: border-box;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+.experince-details-lux h3 {
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 31px;
+    line-height: 39px;
+    font-family: 'Dancing Script', "sans-serif";
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 1px 2px #38404f;
+}
+
+.experince-details-lux h4 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-family: "sans-serif";
+    color: #fff;
+    text-shadow: 2px 1px 2px #38404f;
+}
+
+figcaption a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+figcaption a:hover {
+    background-color: #ff6612;
+    border: 0;
+}
+
+.experience-box:hover figcaption {
+    opacity: 1;
+}
