@@ -99,7 +99,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 
 .slide-img:hover {
