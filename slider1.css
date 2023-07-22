@@ -4,7 +4,8 @@
   margin: 0;
 }
 
-#slider1 {
+#slider1,
+#slider3 {
   height: 500px;
   display: flex;
   justify-content: center;
@@ -23,11 +24,17 @@
   margin-top: -200px;
 }
 
-#slider1 p,
-#slider2 p {
+.slide p {
   font-size: 12px;
   color: rgb(108, 108, 108);
+  font-weight: 500;
+  margin-top: 6px;
 }
+
+.slide h4{
+  color: rgb(52, 52, 52);
+  font-weight: 500;
+} 
 
 .container {
   width: 1600px;
@@ -42,12 +49,15 @@
 .controller {
   display: flex;
   justify-content: space-between;
+  color: rgb(72, 72, 72);
 }
 
 .previous1,
 .next1,
 .previous2,
-.next2 {
+.next2,
+.previous3,
+.next3 {
   padding: 5px;
   width: 35px;
   cursor: pointer;
@@ -60,18 +70,22 @@
 .previous1:hover,
 .next1:hover,
 .previous2:hover,
-.next2:hover {
+.next2:hover,
+.previous3:hover,
+.next3:hover {
   background-color: rgb(238, 147, 0);
 }
 
 #controls1 i,
-#controls2 i {
+#controls2 i,
+#controls3 i {
   color: #ff6612;
   font-size: 1.5rem;
 }
 
 #controls1 a,
-#controls2 a {
+#controls2 a,
+#controls3 a{
   padding: 9px 33px;
   line-height: 17px;
   color: #ff6612;
@@ -84,7 +98,8 @@
 }
 
 #controls1 a:hover,
-#controls2 a:hover {
+#controls2 a:hover,
+#controls3 a:hover {
   color: white;
   background-color: #ff6612;
 }
@@ -203,6 +218,38 @@
 .img-210 {
   background-image: url('img/switzerland.jpg');
 }
+
+.img-31 {
+  background-image: url('img/delhi.jpg');
+}
+.img-32 {
+  background-image: url('img/mumbai.jpg');
+}
+.img-33 {
+  background-image: url('img/CHENNAI\ .jpg');
+}
+.img-34 {
+  background-image: url('img/banglore.jpg');
+}
+.img-35 {
+  background-image: url('img/hydrabad.jpg');
+}
+.img-36 {
+  background-image: url('img/ahmedabad.jpg');
+}
+.img-37 {
+  background-image: url('img/pune.jpg');
+}
+.img-38 {
+  background-image: url('img/chandigadh.jpg');
+}
+.img-39 {
+  background-image: url('img/nagpur.jpg');
+}
+.img-310 {
+  background-image: url('img/jaipur.jpg');
+}
+
 @media(max-width:1600px) {
   .container {
     width: 100%;
