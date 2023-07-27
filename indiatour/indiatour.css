@@ -1,0 +1,313 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'SFProDisplay-Semibold';
+    /* background-color: black;
+    color: aliceblue; */
+    box-sizing: border-box;
+    
+   
+
+}
+
+main{
+    margin: 100px;
+    /* animation: changeofcolor 10s linear 0s normal infinite; */
+}
+
+.firstmain{
+    margin-top: 0%;
+}
+
+@keyframes changeofcolor {
+    0%{color: aqua;}
+    10%{color: rgb(0, 55, 255);}
+    20%{color: rgb(0, 255, 34);}
+    30%{color: rgb(102, 255, 0);}
+    40%{color: rgb(255, 0, 234);}
+    50%{color: rgb(255, 0, 111);}
+    60%{color: rgb(255, 0, 21);}
+    70%{color: rgb(251, 255, 0);}
+    80%{color: rgb(255, 145, 0);}
+    90%{color: rgb(255, 0, 0);}
+    100%{color: rgb(89, 0, 255);}
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    display: flex;
+}
+
+.india_tour_packages,
+.indiatour {
+    color: #FF6612;
+
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.text1 {
+    font-family: 15px;
+}
+
+.know_more {
+    color: #ff6612;
+    font-size: 14px;
+    line-height: 24px;
+
+    border-bottom: 1px solid #ff6612;
+}
+
+.wildlife_card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_trending_place {
+    font-size: 30px;
+    font-weight: 600;
+
+    color: #3b404b;
+}
+
+
+.flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.content_main_1{
+    height: 350px;
+}
+.content_main_2{
+    height: 350px;
+}
+
+
+.container2_image {
+    height: 300px;
+    width: 3500px;
+    background-size: cover;
+    
+
+}
+
+
+.Best_Selling_Destinations {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+
+    color: #3b404b;
+}
+
+
+
+.destination{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.indiaholidaypackagebyinterest{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wildlife_logo{
+    width: 40%;
+    height: 50vh;
+    background-image: url(choice/wildlife-tour-packages.webp);
+    background-repeat: no-repeat;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.font1{
+    font-size: 40px;
+}
+
+.no1{
+    font-size: 41px;
+}
+
+.knowmore1{
+    color: #FF6612;
+    line-height: 25px;
+    border-bottom: 3px solid #FF6612;
+    display: inline;
+}
+
+.wildlifeimage{
+    height: 150px;
+    width: 250px;
+}
+
+
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wildlifetext{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.wildlifesmalltext{
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(128,128,128,0.7);
+}
+
+/* heritage portion */
+.heritage_logo{
+    width: 40%;
+    height: 50vh;
+    background-image: url(heritage/heritage-banner.webp);
+    background-repeat: no-repeat;
+}
+
+
+/* hhill-station portion */
+.hillstation_logo{
+    width: 40%;
+    height: 50vh;
+    background-image: url(hillstation/hill-station-banner.webp);
+    background-repeat: no-repeat;
+}
+
+/* beach portion */
+.beach_logo{
+    width: 40%;
+    height: 50vh;
+    background-image: url(beach/beach-banner.webp);
+    background-repeat: no-repeat;
+}
+
+/* honeymoon portion */
+.honeymoon_logo{
+    width: 40%;
+    height: 50vh;
+    background-image: url(honwymoon/honeymoon-banner.webp);
+    background-repeat: no-repeat;
+}
+
+/* adventure portion */
+.adventure_logo{
+    width: 40%;
+    height: 50vh;
+    background-image: url(adventure/adventure-banner.webp);
+    background-repeat: no-repeat;
+}
+.faq{
+    font-size: 70px;
+    color: #FF6612;
+    text-align: center;
+}
+
+.flightbookingpopup{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6612;
+    color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+    height: 200PX;
+    align-items: center;
+}
+
+.FLIGHTHEADING{
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.flightimage{
+    background-image: url("flight-book-img.png");
+    height: 70px;
+    background-repeat:no-repeat;
+}
+
+.flightlogoandbutton{
+    position: relative;
+    right: 120px;
+}
+.flighttext{
+    position: relative;
+    left: 80px;
+}
+
+.flightbutton{
+    border-radius: 20px;
+    width: 150%;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    
+    background: #012a5e;
+    height: 50px;
+}
+.flightbutton a{
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.statenamewithtour{
+    display: flex;
+    justify-content: space-between;
+}
+
+.statepackagename{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.statebutton{
+    width: 200%;
+    position: relative;
+    height: 60%;
+    right: 150px;
+    top: 16px;
+    border-radius: 30px;
+    background-color: #FF6612;
+}
+.statebutton a{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.knowmore{
+    text-decoration: none;
+    color: #FF6612;
+}
+
+.question{
+    color: #FF6612;
+    font-size: 20px;
+}
