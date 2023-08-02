@@ -2,13 +2,66 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* navbar */
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: #ff6612;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
 .explore-themes {
     padding: 40px 0;
     margin-top: 60px;
 }
 
 .explore-themes h2 {
-    margin-bottom: 30px;
+    color: rgb(52, 52, 52);
     font-weight: bold;
     margin-bottom: 30px;
     margin-left: 7.5%;
@@ -87,13 +140,13 @@ body {
     margin: 15px 0px 0px 10px;
 }
 
-#sub p {
+.sub p {
     font-size: 17px;
     color: #3e3f54;
     font-weight: 600;
 }
 
-#sub span {
+.sub span {
     font-size: 13px;
     color: #787878;
     margin: 15px 0px 0px 10px;
@@ -110,7 +163,7 @@ body {
     color: #ff6612;
 }
 
-#sub {
+.sub {
     font-size: 115%;
     width: 33%;
     height: 33%;
@@ -121,11 +174,9 @@ body {
     transition: transform 0.3s ease;
 }
 
-#sub:hover {
+.sub:hover {
     transform: scale(1.03);
 }
-
-
 
 /*----------- slider 3 ------------ */
 
@@ -175,7 +226,7 @@ body {
     width: 50px;
     height: 50px;
     background: #fff;
-    box-shadow: 0px 0px 8px 1px rgba(255,255,255,0.59);
+    box-shadow: 0px 0px 8px 1px rgba(255, 255, 255, 0.59);
     border-radius: 50%;
     z-index: 1;
     border: 0px;
@@ -250,12 +301,12 @@ body {
 
 
 /* Luxury part */
-  
-  .experience-main {
+
+.experience-main {
     margin: 20px 0 0 120px;
-  }
-  
-  .experience-row {
+}
+
+.experience-row {
     display: flex;
     flex: 0 0 20%;
     padding: 0 20px;
@@ -264,7 +315,7 @@ body {
 
 .heading-h2 {
     margin-bottom: 30px;
-    margin-bottom: 30px;
+    color: rgb(52, 52, 52);
 }
 
 .experience-row {
@@ -348,4 +399,167 @@ figcaption a:hover {
 
 .experience-box:hover figcaption {
     opacity: 1;
+}
+
+
+/* overview */
+
+.part1 {
+    display: flex;
+    margin-top: 80px;
+    background-color: rgba(226, 226, 226, 0.29);
+}
+
+#div11 {
+    width: 40%;
+}
+
+#div12 {
+    width: 55%;
+}
+
+#div11 img {
+    width: 450px;
+    height: 600px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.para {
+    margin-top: 30px;
+}
+
+.p {
+    display: flex;
+
+}
+
+#d2 a {
+    font-weight: 600;
+    margin-left: 140px;
+    color: #ff6612;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#d1 {
+    width: 50%;
+    margin: 40px;
+    margin-top: 25px;
+}
+
+#d2 {
+    width: 50%;
+    margin: 40px;
+    margin-top: 70PX;
+}
+
+#div12 h4 {
+    color: #ff6612;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div12 h1 {
+    margin-top: 10px;
+    color: rgba(100, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div12 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ql {
+    margin-top: 20px;
+    background-color: #ff6612;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(101, 102, 103);
+
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.footer_container {
+    color: rgb(244, 239, 239);
+
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    padding-top: 50px;
+}
+
+.footer_main {
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer_content {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.footer_hr {
+    margin: 80px;
+}
+
+.footer_last_content {
+    margin: 100px;
+    margin-top: 0%;
+}
+
+.footer_logo {
+    background-image: url(footer-logo.png);
+    width: 40px;
+    height: 47px;
+}
+
+.footer_last_content {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.footer_hr2 {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.footer_logo_content {
+    font-size: 10px;
+    line-height: 40px;
+}
+
+.noida {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.infofooter {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+
+.noidainfo {
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+
+.footer_contactno {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
 }
