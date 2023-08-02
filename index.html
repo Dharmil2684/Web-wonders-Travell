@@ -8,83 +8,56 @@
   <title>Document</title>
   <link href="slider1.css" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Font Awesome v6.0.0-beta3 CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Tiny Slider v2.9.3 CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+  <!-- Font Awesome v3.2.1 CSS -->
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <!-- Tiny Slider v2.9.3 JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
+  <!-- jQuery v3.6.0 JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Swiper Bundle ESM v6.0.0 JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js"></script>
+  <!-- Swiper Bundle v6.0.0 CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Slick Carousel v1.8.1 CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <!-- Slick Carousel v1.8.1 JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
+  <!-- AOS (Animate On Scroll) CSS - Next version -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-          <div class="navbarofpage" style="color: aliceblue;">
-            <div class="container-navbar" style="padding: 0%;">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="indiatour/indiatour.html">indiatour</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="webWon_international/index.html">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another
-                                                action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else
-                                                here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled">Disabled</a>
-                                </li>
-                            </ul>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
+
+  <!-- navbar -->
+  <div class="header">
+    <a href="#default" class="logo">CompanyLogo</a>
+    <div class="header-right">
+      <a class="active" href="#home">Home</a>
+      <a href="#contact">Indian Tours</a>
+      <a href="#about">International Tour</a>
+    </div>
+  </div>
 
   <!-- Hero Section -->
   <div class="part">
-    <div id="div1">
+    <div id="div1" data-aos="fade-right" data-aos-duration="1000">
       <br><br>
       <img src="img/Kedarnath-Dham.jpg" style="height: 620px;
       width: 410px;">
     </div>
     <div id="div2">
-      <p><span id="f">Let us plan you a<br>
-          perfect <span id="sp"><b>India Holiday</b></span></span><br><br>
-      <p style="font-size: 105%; margin-left: 25px;">Personalised, well-crafted tour packages for best experiences</p>
-      </p>
+      <div data-aos="fade-down" data-aos-duration="1000">
+        <p><span id="f">Let us plan you a<br>
+            perfect <span id="sp"><b>India Holiday</b></span></span><br><br>
+        <p style="font-size: 105%; margin-left: 25px;">Personalised, well-crafted tour packages for best experiences</p>
+        </p>
+      </div>
       <div class="part">
-        <div id="sub">
+        <div class="sub" data-aos="fade-up" data-aos-duration="1000">
           <table>
             <th>
             <td>
@@ -96,7 +69,7 @@
           </table>
           <img src="img/th (2).jpg" class="im">
         </div>
-        <div id="sub">
+        <div class="sub" data-aos="fade-up" data-aos-duration="1000">
           <table>
             <th>
             <td>
@@ -109,7 +82,7 @@
           </table>
           <img src="img\Golden-Temple-3-1.jpg" class="im">
         </div>
-        <div id="sub">
+        <div class="sub" data-aos="fade-up" data-aos-duration="1000">
           <table>
             <th>
             <td>
@@ -126,16 +99,14 @@
     </div>
   </div>
 
-  <!-- Slider 1-->
+  <!--Tiny Slider 1-->
 
   <section id="slider1">
     <div class="container">
       <div class="subcontainer">
         <div class="slider-wrapper">
-          <div class="controller">
-            <div>
-              <h2>Top Trending Indian Holidays Destinations</h2>
-            </div>
+          <div class="controller" data-aos="fade-down" data-aos-duration="600">
+            <h2>Top Trending Indian Holidays Destinations</h2>
             <div id="controls1">
               <a href="#">View All Tours</a>
               <button class="previous1"><i class="fas fa-angle-left"></i></button>
@@ -143,8 +114,8 @@
             </div>
           </div>
           <br>
-          <div class="my-slider1">
-            <div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <div class="my-slider1">
               <div class="slide">
                 <div class="slide-img img-11">
                   <a href="#">View Packages</a>
@@ -155,8 +126,6 @@
                   <p>40 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-12">
                   <a href="#">View Packages</a>
@@ -167,8 +136,6 @@
                   <p>25 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-13">
                   <a href="#">View Packages</a>
@@ -179,8 +146,6 @@
                   <p>80 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-14">
                   <a href="#">View Packages</a>
@@ -191,8 +156,6 @@
                   <p>30 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-15">
                   <a href="#">View Packages</a>
@@ -203,8 +166,6 @@
                   <p>80 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-16">
                   <a href="#">View Packages</a>
@@ -215,8 +176,6 @@
                   <p>70 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-17">
                   <a href="#">View Packages</a>
@@ -227,8 +186,6 @@
                   <p>70 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-18">
                   <a href="#">View Packages</a>
@@ -239,8 +196,6 @@
                   <p>20 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-19">
                   <a href="#">View Packages</a>
@@ -251,8 +206,6 @@
                   <p>25 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
               <div class="slide">
                 <div class="slide-img img-110">
                   <a href="#">View Packages</a>
@@ -305,10 +258,8 @@
     <div class="container">
       <div class="subcontainer">
         <div class="slider-wrapper">
-          <div class="controller">
-            <div>
-              <h2>Top Trending International Holiday Destinations</h2>
-            </div>
+          <div class="controller" data-aos="fade-down" data-aos-duration="600">
+            <h2>Top Trending International Holiday Destinations</h2>
             <div id="controls2">
               <a href="#">View All Tours</a>
               <button class="previous2"><i class="fas fa-angle-left"></i></button>
@@ -316,124 +267,123 @@
             </div>
           </div>
           <br>
-          <div class="my-slider2">
-            <div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <div class="my-slider2">
               <div class="slide">
                 <div class="slide-img img-21">
                   <a href="#">View Packages</a>
                 </div>
-                <br>
                 <div>
                   <h4>Bhutan</h4>
                   <p>45 Tour Packages</p>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-22">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Nepal</h4>
-                  <p>40 Tour Packages</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-23">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Maldives</h4>
-                  <p>10 Tour Packages</p>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-22">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Nepal</h4>
+                    <p>40 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-24">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Sri Lanka</h4>
-                  <p>30 Tour Packages</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-25">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Dubai</h4>
-                  <p>15 Tour Packages</p>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-23">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Maldives</h4>
+                    <p>10 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-26">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Australia</h4>
-                  <p>10 Tour Packages</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-27">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Singapore</h4>
-                  <p>5 Tour Packages</p>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-24">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Sri Lanka</h4>
+                    <p>30 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-28">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Myanmar</h4>
-                  <p>6 Tour Packages</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-29">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Vietnam</h4>
-                  <p>5 Tour Packages</p>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-25">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Dubai</h4>
+                    <p>15 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-210">
-                  <a href="#">View Packages</a>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-26">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Australia</h4>
+                    <p>10 Tour Packages</p>
+                  </div>
                 </div>
-                <br>
-                <div>
-                  <h4>Switzerland</h4>
-                  <p>4 Tour Packages</p>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-27">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Singapore</h4>
+                    <p>5 Tour Packages</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-28">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Myanmar</h4>
+                    <p>6 Tour Packages</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-29">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Vietnam</h4>
+                    <p>5 Tour Packages</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-210">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Switzerland</h4>
+                    <p>4 Tour Packages</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -477,14 +427,12 @@
 
   <section>
     <div class="slideshow">
-      <div class="slider">
+      <div class="slider" data-aos="flip-up" data-aos-duration="600">
         <div class="item">
-          <img
-            src="img/hori1.jpg" />
+          <img src="img/hori1.jpg" />
         </div>
         <div class="item">
-          <img
-            src="img/hori2.jpg" />
+          <img src="img/hori2.jpg" />
         </div>
       </div>
     </div>
@@ -502,9 +450,10 @@
     </script>
   </section>
 
+  <br>
   <!-- Themes you can explore -->
 
-  <section class="explore-themes">
+  <section class="explore-themes" data-aos="zoom-in" data-aos-duration="1000">
     <h2>Themes You Can Explore</h2>
     <div class="theme-cards">
       <div class="theme-card">
@@ -555,14 +504,14 @@
   </section>
 
 
-    <!-- Luxury Travell part -->
+  <!-- Luxury Travell part -->
 
   <div class="experience-luxury-travel">
     <div class="experience-main">
-      <div class="heading-h2">
+      <div class="heading-h2" data-aos="zoom-out" data-aos-duration="1000">
         <h2>Experience Luxury Travel in India</h2>
       </div>
-      <div style="margin-left: -20px;">
+      <div style="margin-left: -20px;" data-aos="zoom-out" data-aos-duration="1000">
         <div class="experience-row">
           <div class="experience-box">
             <div class="experince-area">
@@ -589,7 +538,7 @@
                 </figure>
                 <div class="experince-details-lux">
                   <h3>Best Deals</h3>
-                  <h4>Goldern Chariot</h4>
+                  <h4>Maharaja Express</h4>
                 </div>
               </div>
             </div>
@@ -604,7 +553,7 @@
                   </figure>
                   <div class="experince-details-lux">
                     <h3>Best Deals</h3>
-                    <h4>Palace of wheels</h4>
+                    <h4>Maharaja Express</h4>
                   </div>
                 </div>
               </div>
@@ -619,7 +568,7 @@
                     </figure>
                     <div class="experince-details-lux">
                       <h3>Best Deals</h3>
-                      <h4>Deccan Odyssey</h4>
+                      <h4>Maharaja Express</h4>
                     </div>
                   </div>
                 </div>
@@ -634,7 +583,7 @@
                       </figure>
                       <div class="experince-details-lux">
                         <h3>Best Deals</h3>
-                        <h4>Luxury Packages</h4>
+                        <h4>Maharaja Express</h4>
                       </div>
                     </div>
                   </div>
@@ -647,15 +596,13 @@
     </div>
   </div>
 
-
-  
-  <!----------------- slider 2 ------------------->
+  <!----------------- slider 3 ------------------->
 
   <section id="slider3">
     <div class="container">
       <div class="subcontainer">
         <div class="slider-wrapper">
-          <div class="controller">
+          <div class="controller" data-aos="fade-down" data-aos-duration="1000">
             <div>
               <h2>Weekend Destinations</h2>
             </div>
@@ -666,124 +613,126 @@
             </div>
           </div>
           <br>
-          <div class="my-slider3">
-            <div>
-              <div class="slide">
-                <div class="slide-img img-31">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Delhi Weekend Gateways</h4>
-                  <p>45 Tour Packages</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-32">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Mumbai Weekend Gateways</h4>
-                  <p>40 Tour Packages</p>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <div class="my-slider3">
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-31">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Delhi Weekend Gateways</h4>
+                    <p>45 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-33">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Chennai Weekend Gateways</h4>
-                  <p>10 Tour Packages</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-34">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Banglore Weekend Gateways</h4>
-                  <p>30 Tour Packages</p>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-32">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Mumbai Weekend Gateways</h4>
+                    <p>40 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-35">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Hydrabad Weekend Gateways</h4>
-                  <p>15 Tour Packages</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-36">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Ahmedabad Weekend Gateways</h4>
-                  <p>10 Tour Packages</p>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-33">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Chennai Weekend Gateways</h4>
+                    <p>10 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-37">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Pune Weekend Gateways</h4>
-                  <p>5 Tour Packages</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-38">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Chandigadh Weekend Gateways</h4>
-                  <p>6 Tour Packages</p>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-34">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Banglore Weekend Gateways</h4>
+                    <p>30 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-39">
-                  <a href="#">View Packages</a>
-                </div>
-                <br>
-                <div>
-                  <h4>Nagpur Weekend Gateways</h4>
-                  <p>5 Tour Packages</p>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-35">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Hydrabad Weekend Gateways</h4>
+                    <p>15 Tour Packages</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div class="slide">
-                <div class="slide-img img-310">
-                  <a href="#">View Packages</a>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-36">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Ahmedabad Weekend Gateways</h4>
+                    <p>10 Tour Packages</p>
+                  </div>
                 </div>
-                <br>
-                <div>
-                  <h4>Jaipur Weekend Gateways</h4>
-                  <p>4 Tour Packages</p>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-37">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Pune Weekend Gateways</h4>
+                    <p>5 Tour Packages</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-38">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Chandigadh Weekend Gateways</h4>
+                    <p>6 Tour Packages</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-39">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Nagpur Weekend Gateways</h4>
+                    <p>5 Tour Packages</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-310">
+                    <a href="#">View Packages</a>
+                  </div>
+                  <br>
+                  <div>
+                    <h4>Jaipur Weekend Gateways</h4>
+                    <p>4 Tour Packages</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -821,7 +770,158 @@
     </script>
   </section>
 
+
+  <!-- overview -->
+
+  <div class="part1">
+    <div id="div11" data-aos="fade-right" data-aos-duration="600">
+      <img src="img/over.jpg">
+    </div>
+    <div id="div12" class="p">
+      <div id="d1" data-aos="zoom-in" data-aos-duration="600">
+        <h4>OVERVIEW</h4>
+        <h1>About Incredible India</h1>
+        <div class="para">
+
+          <p>Interesting and Intriguing, India offers incredible holiday experiences through its cultural,
+            topography, and wildlife diversity. With these amazing and unique experiences, this south Asian
+            country conveniently finds its way into the world tourism map as one of the finest destinations for
+            a holistic vacation</p>
+          <br>
+
+          <p>India establishes its identity as the country of architectural masterpieces, making it an ideal
+            travel destination to plan a heritage tour in the world. While Taj Mahal makes for the major draw on
+            an India tour, there are a plethora of monuments and edifices in every India travel guide displaying
+            the fine architecture and grandiose of different eras in the country</p>
+          <br>
+
+          <p>The diverse Indian topography adomed with the impressive Himalayas; long stretches of coastline
+            expansive hot, cold and white salt deserts; dense forests, alpine meadows and lakes, and scenic
+            waterfalls pique the tourists' interest</p>
+        </div>
+      </div>
+      <div id="d2" data-aos="fade-left" data-aos-duration="600">
+        <a style="font-size: 90%;" href="#">KNOW MORE ABOUT TMI →</a>
+        <div class="para">
+          <p>Along with the best nature sightseeing tours, India offers an opportunity to visitors to have a
+            little adventure of their own. The numerous spell- binding and less-trodden trails give trekking
+            tour opportunities in South Asia unlike any other</p>
+          <p>India Tours offers a chance to explore its biodiversity in the country's many national parks and
+            wildlife reserves. An enthralling experience entails in the India wildlife tour packages that take
+            tourists to the habitats of Royal Bengal Tigers one-homed thinos, and snow leopards amongst many
+            rare, endangered, and unique species of flora and fauna.</p>
+        </div>
+        <div id="ql" data-aos="fade-up" data-aos-duration="600">
+          <p><b>Quick Links</b></p>
+          <ul>
+            <li>Kumbh Mela Haridwar</li>
+            <li>Peak Climbing in India</li>
+            <li>Buddhism in India</li>
+            <li>Yoga And Meditation</li>
+            <li>Fair And Festivals in India</li>
+            <li>Maps Of India</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer -->
+
+  <footer>
+    <div class="footer_container">
+      <div>
+        <div class="footer_main">IN THE TOUR SECTION</div>
+        <div class="footer_content">
+          Package Tour<br>
+          Top Tourist attractions of india<br>
+          best hotel chains in india<br>
+          corporate tour<br>
+          rent a car<br>
+          company profile<br>
+          contact us<br>
+          register your hotel<br>
+
+
+        </div>
+      </div>
+      <div class="footer_content">
+        <br>
+        <br>
+        fixed departue tours<br>
+        states of india<br>
+        top travel destinations<br>
+        book a hotel<br>
+        air ticket<br>
+        testimonials<br>
+        blog<br>
+        kumbh mela-2021<br>
+
+      </div>
+      <div>
+        <div class="footer_main">LEGAL POLICY</div>
+        <div class="footer_content">
+          Terms and condition<br>
+          disclaimer<br>
+          privacy policy <br>
+          we are hiring <br>
+          share your travel experience<br>
+        </div>
+      </div>
+      <div>
+        <div class="footer_main">SOCIAL MEDIA</div>
+        <span class="linkdin"></span>
+        <span><i class="fa-brands fa-instagram"> </i></span>
+        <span><i class="fa-brands fa-facebook"> </i></span>
+        <span><i class="fa-brands fa-twitter"> </i></span>
+        <span><i class="fa-brands fa-linkedin"> </i></span>
+        <span><i class="fa-brands fa-youtube"> </i></span>
+      </div>
+    </div>
+
+    <br>
+    <div class="footer_last_content">
+
+      <div>
+        <div class="footer_logo"></div>
+        <div class="footer_logo_content">copyRight©2020, Tour My India Pvt. Ltd</div>
+      </div>
+      <div class="noidainfo">
+        <div class="noida">
+          <div>
+            C - 81C, Sector - 8, Noida - 201301
+          </div>
+          <div>
+            +91-120-4052615 - 99 (85 hunting lines are available)
+          </div>
+        </div>
+        <div class="infofooter">
+          <div>info@tourmyindia.com </div>
+          <div>+91-9212777225 (Only for Whatsapp)</div>
+          <div>tourmyindiadelh</div>
+        </div>
+      </div>
+      <div class="footer_contactno">
+        <div>
+          +91-120-4052699
+        </div>
+        <div>
+          +91-9212777223/24
+        </div>
+      </div>
+    </div>
+
+  </footer>
   
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
 </body>
 
 </html>
